@@ -44,8 +44,8 @@ function createBoxes(modifiedArry) {
     let box = document.createElement("div");
     box.innerText = ele.num;
     box.style.backgroundColor = ele.color;
-    box.style.width = "50px";
-    box.style.height = "50px";
+    box.style.width = "100%";
+    box.style.height = "100%";
     box.classList.add("box");
     boxes.appendChild(box);
   });
